@@ -1,0 +1,63 @@
+## windows defender warning 01
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Windows Defender"  /> 
+  <EventID>1116</EventID> 
+  <Version>0</Version> 
+  <Level>3</Level> 
+  <Task>0</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2023-06-01T01:40:52.293520400Z" /> 
+  <EventRecordID>7226</EventRecordID> 
+  <Correlation ActivityID="{dffb1f24-fac3-484c-b00b-09a4edcc4dba}" /> 
+  <Execution ProcessID="5804" ThreadID="12188" /> 
+  <Channel>Microsoft-Windows-Windows Defender/Operational</Channel> 
+  <Computer></Computer> 
+  <Security " /> 
+  </System>
+- <EventData>
+  <Data Name="Product Name">Microsoft Defender</Data> 
+  <Data Name="Product Version">4.18.2304.8</Data> 
+  <Data Name="Detection ID">{05CB4777-2167-4E70-AC8E-EFB5829DE175}</Data> 
+  <Data Name="Detection Time">2023-06-01T01:40:51.203Z</Data> 
+  <Data Name="Unused" /> 
+  <Data Name="Unused2" /> 
+  <Data Name="Threat ID">2147685180</Data> 
+  <Data Name="Threat Name">HackTool:Win32/AutoKMS</Data> 
+  <Data Name="Severity ID">4</Data> 
+  <Data Name="Severity Name">高</Data> 
+  <Data Name="Category ID">34</Data> 
+  <Data Name="Category Name">工具</Data> 
+  <Data Name="FWLink">https://go.microsoft.com/fwlink/?linkid=37020&name=HackTool:Win32/AutoKMS&threatid=2147685180&enterprise=0</Data> 
+  <Data Name="Status Code">1</Data> 
+  <Data Name="Status Description" /> 
+  <Data Name="State">1</Data> 
+  <Data Name="Source ID">4</Data> 
+  <Data Name="Source Name">下载和附件</Data> 
+  <Data Name="Process Name">Unknown</Data> 
+  <Data Name="Detection User">DESKTOP\abc</Data> 
+  <Data Name="Unused3" /> 
+  <Data Name="Path">containerfile:_E:\abc\download\HEU_KMS_Activator_v30.2.0.zip; file:_E:\abc\download\HEU_KMS_Activator_v30.2.0.zip->HEU_KMS_Activator_30.2.0.exe; webfile:_E:\abc\download\HEU_KMS_Activator_v30.2.0.zip|https://objects.githubusercontent.com/github-production-release-asset-2e65be/193292061/0d707f36-b8e3-4ed4-8135-7ae78c865c34?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230601%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230601T014020Z&X-Amz-Expires=300&X-Amz-Signature=31d01ee0364513249110f25e670cf44b7ff0e6452bf194d24c14ca2c27d5c2f2&X-Amz-SignedHeaders=host&actor_id=46440973&key_id=0&repo_id=193292061&response-content-disposition=attachment%3B%20filename%3DHEU_KMS_Activator_v30.2.0.zip&response-content-type=application%2Foctet-stream|pid:6200,ProcessStart:133300572493591068</Data> 
+  <Data Name="Origin ID">4</Data> 
+  <Data Name="Origin Name">Internet</Data> 
+  <Data Name="Execution ID">0</Data> 
+  <Data Name="Execution Name">未知</Data> 
+  <Data Name="Type ID">8</Data> 
+  <Data Name="Type Name">快速路径</Data> 
+  <Data Name="Pre Execution Status">0</Data> 
+  <Data Name="Action ID">9</Data> 
+  <Data Name="Action Name">不适用</Data> 
+  <Data Name="Unused4" /> 
+  <Data Name="Error Code">0x00000000</Data> 
+  <Data Name="Error Description">操作成功完成。</Data> 
+  <Data Name="Unused5" /> 
+  <Data Name="Post Clean Status">0</Data> 
+  <Data Name="Additional Actions ID">0</Data> 
+  <Data Name="Additional Actions String">No additional actions required</Data> 
+  <Data Name="Remediation User" /> 
+  <Data Name="Unused6" /> 
+  <Data Name="Security intelligence Version">AV: 1.391.20.0, AS: 1.391.20.0, NIS: 1.391.20.0</Data> 
+  <Data Name="Engine Version">AM: 1.1.23050.3, NIS: 1.1.23050.3</Data> 
+  </EventData>
+  </Event>
